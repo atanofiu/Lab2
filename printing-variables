@@ -1,0 +1,9 @@
+#!/usr/bin/env python3 
+# Author ID: Anofiu Abiola
+import sys
+
+def print_arguments():
+    print("Script Name:", sys.argv[0])
+    print("Arguments provided:", sys.argv[1:] if len(sys.argv) > 1 else "No arguments provided.")
+
+print_arguments()
