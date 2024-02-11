@@ -7,3 +7,12 @@ def print_arguments():
     print("Arguments provided:", sys.argv[1:] if len(sys.argv) > 1 else "No arguments provided.")
 
 print_arguments()
+
+
+
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
